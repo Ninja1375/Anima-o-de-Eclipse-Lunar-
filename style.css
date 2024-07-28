@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0, #120c56, #000000);
+}
+
+.eclipse-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.moon {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #FFF;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.earth-shadow {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 10%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    animation: move-shadow 20s infinite;
+    z-index: 2;
+}
+
+@keyframes move-shadow {
+    0% {
+        left: -200px;
+    }
+    50% {
+        left: 10%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
