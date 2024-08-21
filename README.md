@@ -1,6 +1,6 @@
-**Veja o projeto ao vivo**
+**Veja o projeto ao vivo:**
 
-[Animação de Eclipse Lunar:](https://ninja1375.github.io/Anima-o-de-Eclipse-Lunar-/)
+[Animação de Eclipse Lunar](https://ninja1375.github.io/Anima-o-de-Eclipse-Lunar-/)
 
 Este projeto consiste em uma Animação de Eclipse Lunar.
 
